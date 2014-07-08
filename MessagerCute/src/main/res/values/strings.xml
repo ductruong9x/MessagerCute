@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Messenger Cute</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_gui_tin_nhan">Send SMS</string>
+    <string name="title_activity_danh_ba">Contact</string>
+    <string name="note">Note: Some can not send SMS directly from the software. Click the Copy button to copy the message content to share.</string>
+    <string name="phone">Phone Number</string>
+    <string name="edit_sms">Edit Message:</string>
+    <string name="send_to">Send to:</string>
+    <string name="vote_title">Vote my application :)</string>
+    <string name="vote_content">Can you +1 and rate 5 star?</string>
+    <string name="donotshow">Do not show again</string>
+    <string name="later">Later</string>
+    <string name="all">All</string>
+    <string name="new_year">New Year</string>
+    <string name="noel">Noel</string>
+    <string name="love">Love</string>
+    <string name="night">Good Night</string>
+    <string name="birthday">Birthday</string>
+    <string name="wormen">8/3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="low_android">Lower your Android version unusable</string>
+</resources>

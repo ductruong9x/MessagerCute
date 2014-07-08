@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tin nhắn Cute</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_gui_tin_nhan">Gửi tin</string>
+    <string name="title_activity_danh_ba">Danh bạ</string>
+	<string name="note">Chú ý: Một số tin nhắn quá dài cần copy để chia sẻ</string>
+	<string name="phone">SDT</string>
+	<string name="edit_sms">Sửa tin nhắn:</string>
+	<string name="send_to">Gửi tới:</string>
+	<string name="vote_title">Vote my application :)</string>
+	<string name="vote_content">Can you +1 and rate 5 star?</string>
+	<string name="donotshow">Do not show again</string>
+	<string name="later">Later</string>
+	<string name="all">Tất cả</string>
+	<string name="new_year">Năm mới</string>
+	<string name="noel">Noel</string>
+	<string name="love">Tình yêu</string>
+	<string name="night">Ngủ ngon</string>
+	<string name="birthday">Sinh nhật</string>
+	<string name="wormen">8/3</string>
+    <string name="low_android">Phiên bản Android của bạn thấp không sử dụng được</string>
+    <string name="navigation_drawer_open">Mở</string>
+    <string name="navigation_drawer_close">Đóng</string>
+</resources>

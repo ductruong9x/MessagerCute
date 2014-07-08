@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.appfree.messengercute.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_sms"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/app_color"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/edNoiDung"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:inputType="textMultiLine"
+            android:textSize="13sp"
+            android:textColor="@color/app_color" />
+
+        <TableRow
+            android:background="@color/app_color"
+            android:id="@+id/tableRow3"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edSDT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:ems="10"
+                android:hint="@string/phone"
+                android:textColorHint="#ccc"
+                android:inputType="phone">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/btnDanhBa"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:textSize="12sp"
+                android:text="@string/title_activity_danh_ba"
+                android:textColor="@color/white"
+                android:background="@drawable/button"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+
+                android:gravity="center"/>
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/app_color"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+
+                <TextView
+                    android:id="@+id/btnSend"
+                    android:layout_margin="8dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button"
+                    android:text="@string/title_activity_gui_tin_nhan"/>
+
+                <TextView
+                    android:id="@+id/btnCopy"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="8dp"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:text="Copy"
+                    android:background="@drawable/button"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note"
+                android:textColor="@color/white"
+                android:layout_margin="8dp"/>
+            <com.startapp.android.publish.banner.Banner
+                android:id="@+id/startAppBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
